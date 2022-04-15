@@ -79,7 +79,7 @@ vim pom.xml
 				<manifest>
 					<addClasspath>true</addClasspath>
 					<!-- here we specify that we want to use the main method within the App class -->
-					<mainClass>br.com.maven_build</mainClass>
+					<mainClass>br.com.maven_build.App</mainClass>
 				</manifest>
 			</archive>
 		</configuration>
