@@ -100,3 +100,14 @@ vim pom.xml
     <java.version>17</java.version>
 </properties>
 ```
+
+# Adicionando dependencia
+- https://mvnrepository.com/
+```shell
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.3.19</version>
+</dependency>
+```
