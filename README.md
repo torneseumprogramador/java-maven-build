@@ -28,8 +28,8 @@ mvn archetype:generate                                  \
   -DinteractiveMode=false                               \
   -DarchetypeArtifactId=maven-archetype-quickstart      \
   -DarchetypeVersion=1.4                                \
-  -DgroupId=br.com.maven_build2                         \
-  -DartifactId=maven_build2
+  -DgroupId=br.com.maven_build                          \
+  -DartifactId=maven_build 
 ```
 
 ## Build da aplicação
