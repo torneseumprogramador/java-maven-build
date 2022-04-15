@@ -59,7 +59,7 @@ java -jar target/maven_build-1.0-SNAPSHOT.jar # roda binário do java compilado
 java -jar target/maven_build-1.0-SNAPSHOT.war # roda binário do java compilado
 ```
 
-## Configurar o manifest
+## Configurar o manifest (indicação para o jar qual é a classe inicial)
 - https://www.sohamkamani.com/java/cli-app-with-maven/#running-our-code
 ```shell
 vim pom.xml
