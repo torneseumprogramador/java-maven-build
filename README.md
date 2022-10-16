@@ -57,6 +57,11 @@ mvn exec:java -Dexec.mainClass="br.com.maven_build.App" # roda a aplicação apo
 ```shell
 java -jar target/maven_build-1.0-SNAPSHOT.jar # roda binário do java compilado
 java -jar target/maven_build-1.0-SNAPSHOT.war # roda binário do java compilado
+
+# para aplicações Spring Boot
+./mvnw spring-boot:start # linux com Script "mvnw"
+mvnw.cmd spring-boot:start # windows com Script "mvnw.cmd"
+mvn spring-boot:start # Qualquer S.O. com mvn instalado
 ```
 
 ## Configurar o manifest (indicação para o jar qual é a classe inicial)
